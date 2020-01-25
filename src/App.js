@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Routes from './routes';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import './styles.css'; //importando os estilos globais
 
-export default App;
+
+import Header from './components/Header'; //importando o componente header 
+import Main from './pages/main';
+
+const App = () => ( //arrow function de component
+  <div className="App">
+    <Header /> {/*mostrando em tela o conteudo de dentro do Header*/}
+    <Routes /> {/*mostrando as rotas que direcionam pro main*/}
+  </div>
+);
+ 
+
+export default App; //exportando tudo isso de dentro do meu App
