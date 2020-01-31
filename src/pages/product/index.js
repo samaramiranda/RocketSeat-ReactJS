@@ -11,9 +11,9 @@ export default class Product extends Component {
   async componentDidMount(){
     const { id } = this.props.match.params; //destruturação para acessar o id que está na rota
 
-    const response = await api.get(`/products/${id}`)
+    const response = await api.get(`/products/${id}`);
 
-    this.setState({product: response.data}) //preenchendo os dados do produto no state com os dados do response
+    this.setState({product: response.data}); //preenchendo os dados do produto no state com os dados do response
   }
 
   render() {
