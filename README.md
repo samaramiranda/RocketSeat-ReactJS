@@ -1,5 +1,5 @@
 <h1 align="center">
-  💻 JSHunt Mobile
+  💻 JSHunt Web
 </h1>
 
 
