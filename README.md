@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  💻 JSHunt Mobile
+</h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+## :rocket: Sobre o projeto
 
-### `yarn start`
+Este é o JSHunt, um site que lista respositórios do GitHub e que foi desenvolvido durante o curso Starter ReactJS da Rocketseat.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O site busca em uma API, já desenvolvida no curso de Starter NodeJS, os repositórios já cadastrados e por meio de uma paginação exibe em tela uma lista com todos eles. Cada respositório cadastrado possuí os seguintes dados:
+- Título do repositório;
+- Breve descrição sobre o conteúdo dele.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Quando o usuário clica em "Acessar" é direcionado a página de detalhe daquele cadastro que contém também o link para o seu repositório.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :computer: Tecnologias usadas:
 
-### `yarn build`
+### ReactJS: 
+- `Axios`: Utilizado para acessar a API contendo os repositórios cadastrados.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `react, react-dom, react-scripts`: Para o acesso os elementos HTML, a árvore de elementos e alguns scripts para a aplicação no ReactJS.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :bulb: Telas
 
-### `yarn eject`
+![Captura de Tela (170)](https://user-images.githubusercontent.com/23708544/89236133-2a693400-d5c6-11ea-9d41-afb1d46334c3.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Captura de Tela (168)](https://user-images.githubusercontent.com/23708544/89236248-67352b00-d5c6-11ea-9a26-12ce9ac9f0ca.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
